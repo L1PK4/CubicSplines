@@ -3,7 +3,7 @@ from algorithm import *
 # deltax = x(i+1) - xi
 # deltay = y(i+1) - yi
 
-def solve(x, y, eps = 1e-5):
+def solve(x, y):
 	size = len(x)
 	deltax = np.diff(x)
 	deltay = np.diff(y)
